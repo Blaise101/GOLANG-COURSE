@@ -5,6 +5,7 @@ import "fmt"
 func main(){
 
 	var conferenceName = "Blaise Conferences"
+	// same as conferenceName := "Blaise Conferences"
 	const conferenceTickets = 50
 	var remainingTickets = 50
 
@@ -17,8 +18,11 @@ func main(){
 	var username string
 	var usertickets int
 
-	username = "kamali"
-	usertickets = 4
+	fmt.Print("Enter user's name: ")
+	fmt.Scan(&username)
+
+	fmt.Printf("How many tickets does %v want to book: ", username)
+	fmt.Scan(&usertickets)
 
 	fmt.Printf("User %v booked %v tickets.\n", username, usertickets)
 	
