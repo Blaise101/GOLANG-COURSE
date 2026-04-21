@@ -1,0 +1,12 @@
+### This repo consists of some ambiguous go mini projects
+
+# What learnt
+
+## 1. Project setup
+
+```
+ > -- Install go from go official website https://go.dev/dl/
+ > -- Install a go extension for better developer experience https://marketplace.visualstudio.com/items?itemName=golang.Go
+ > -- create main.go file
+ > -- create project's module *go mod init <module path>*
+```
